@@ -11,14 +11,7 @@ A FastAPI backend that accepts a **KML** file or a **zipped Shapefile**, extract
 
 ## Demo
 
-<!--
-  PASTE DEMO GIF HERE
-  1. Save your recording as docs/images/demo.gif
-  2. Replace the placeholder block below with:  ![Demo](docs/images/demo.gif)
--->
-> 🎬 **Demo GIF placeholder**
-> Suggested content: start the server → upload `sample_data/survey.kml` in Swagger UI → open the measurements response.
-> Recommended size: under 10 MB, about 800 px wide.
+![Demo](assets/Demo.gif)
 
 ---
 
@@ -401,28 +394,24 @@ Paste your own screenshots below. Suggested file names are in the comments.
 
 ### 8.1 Swagger UI
 
-<!-- Save as docs/images/swagger-ui.png, then use: ![Swagger UI](docs/images/swagger-ui.png) -->
-> 📸 **Screenshot placeholder:** Swagger UI at `/docs` showing all endpoints.
+![Swagger UI](assets/Output1.png)
 
 ### 8.2 Upload response
 
-<!-- Save as docs/images/upload-response.png, then use: ![Upload response](docs/images/upload-response.png) -->
-> 📸 **Screenshot placeholder:** `POST /api/files/` with `survey.kml` returning `201` and `status: COMPLETED`.
+![Upload response](assets/Output2.png)
 
 ### 8.3 Measurements response
 
-<!-- Save as docs/images/measurements-response.png, then use: ![Measurements](docs/images/measurements-response.png) -->
-> 📸 **Screenshot placeholder:** `GET /api/files/{id}/measurements/` showing area, length, the unsupported feature and the summary.
+![Measurements](assets/Output3.png)
 
 ### 8.4 Error handling
 
-<!-- Save as docs/images/error-response.png, then use: ![Error response](docs/images/error-response.png) -->
-> 📸 **Screenshot placeholder:** a `415` (wrong file type) or `422` (invalid file) response.
+ ![Error response](assets/Output4.png) 
 
 ### 8.5 Test results
 
-<!-- Save as docs/images/tests-passing.png, then use: ![Tests](docs/images/tests-passing.png) -->
-> 📸 **Screenshot placeholder:** terminal showing `54 passed` from `python -m pytest`.
+![Tests](assets/Output5.png)
+
 
 ### 8.6 Expected results for the sample files
 
