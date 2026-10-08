@@ -11,7 +11,9 @@ A FastAPI backend that accepts a **KML** file or a **zipped Shapefile**, extract
 
 ## Demo
 
-![Demo](assets/Demo.gif)
+<p align="center">
+  <img src="assets/Demo.gif" alt="Geo Measurement API Demo" width="900">
+</p>
 
 ---
 
@@ -388,9 +390,7 @@ Null properties are omitted; GDAL's KML styling columns are dropped.
 
 ---
 
-## 8. Sample output
-
-Paste your own screenshots below. Suggested file names are in the comments.
+## 8.output
 
 ### 8.1 Swagger UI
 
