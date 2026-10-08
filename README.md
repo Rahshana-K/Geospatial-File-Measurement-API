@@ -9,14 +9,6 @@ A FastAPI backend that accepts a **KML** file or a **zipped Shapefile**, extract
 
 ---
 
-## Demo
-
-<p align="center">
-  <img src="assets/Demo.gif" alt="Geo Measurement API Demo" width="900">
-</p>
-
----
-
 ## Contents
 
 1. [Tech stack](#1-tech-stack)
