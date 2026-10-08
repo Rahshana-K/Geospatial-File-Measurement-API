@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = [
+    # third-party noise unrelated to this project
+    "ignore:The 'generic' unit for NumPy timedelta",
+    "ignore:Using `httpx` with",
+    "ignore:'crs' was not provided",
+]
