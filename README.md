@@ -18,7 +18,7 @@ A FastAPI backend that accepts a **KML** file or a **zipped Shapefile**, extract
 5. [Project structure](#5-project-structure)
 6. [Getting started](#6-getting-started)
 7. [API reference](#7-api-reference)
-8. [Sample output](#8-sample-output)
+8. [Output](#8-output)
 9. [Testing](#9-testing)
 10. [How to evaluate](#10-how-to-evaluate)
 11. [Design decisions](#11-design-decisions)
