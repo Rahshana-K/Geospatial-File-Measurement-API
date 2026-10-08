@@ -382,7 +382,7 @@ Null properties are omitted; GDAL's KML styling columns are dropped.
 
 ---
 
-## 8.output
+## 8. output
 
 ### 8.1 Swagger UI
 
